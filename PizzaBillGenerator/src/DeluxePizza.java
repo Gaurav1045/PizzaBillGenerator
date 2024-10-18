@@ -1,15 +1,19 @@
 
 public class DeluxePizza extends Pizza {
 
-    public DeluxePizza(Boolean veg) {
-        super(veg);
+    public DeluxePizza(String name, Boolean veg, String size) {
+        super(name, veg, size);
         super.addExtraCheese();
         super.addExtraToppings();
     }
 
     @Override
-    public void addExtraCheese() { }
+    public void addExtraCheese() {
+        System.out.println("Extra cheese is already included in the Deluxe Pizza.");
+    }
 
     @Override
-    public void addExtraToppings() { }
+    public void addExtraToppings() {
+        System.out.println("Extra toppings are already included in the Deluxe Pizza.");
+    }
 }
