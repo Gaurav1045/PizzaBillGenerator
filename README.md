@@ -1,7 +1,3 @@
-Here's the updated `README.md` file with your GitHub username:
-
----
-
 # Pizza Bill Generator 🍕
 
 A simple **Pizza Bill Generator** built using Core Java. This application allows users to order a pizza, customize it with extra cheese and toppings, choose a takeaway option, and generate a detailed bill based on the order.
